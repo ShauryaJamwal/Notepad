@@ -1,0 +1,30 @@
+html{
+margin: 0;
+padding:0;
+}
+body{
+background:#A9A9A9;
+}
+
+#text h1{
+font-size:150px;
+text-align:center;
+margin:auto;
+margin-top:17%;
+font-weight:bold;
+color:rgba(255,255,255,0.5);
+background-image:url(i.jpg);
+-webkit-background-clip:text;
+animation: round 4s linear infinite;
+}
+@keyframes round{
+0%{
+  background-position:left 0 top 10px;
+}
+50%{
+  background-position:left 400px top 10px;
+}
+100%{
+  background-position:left 0 top 10px;
+}
+}
